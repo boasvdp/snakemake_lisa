@@ -14,4 +14,5 @@ The duration can be specified in minutes, or in the MM:SS, or HH:MM:SS format (a
 The maximum walltime for CPU jobs is 120 hours (5 days); An example is `1:30:00`which would mean 1h30min.
 
 ## Submitting a job
-sbatch myjob.sh
+1. Connect to LISA
+2. `sbatch my_lisa_job.sh`
